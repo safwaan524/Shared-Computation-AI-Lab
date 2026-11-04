@@ -1,0 +1,48 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.dylib
+
+# Secrets & Environment variables
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# Operating System & IDE artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter / Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit run cache (preserves .streamlit/config.toml)
+.streamlit/*.json
+.streamlit/secrets.toml
